@@ -1,0 +1,474 @@
+Question 1
+Which one of the following lines properly starts a parameterless function definition?
+
+radio_button_unchecked
+def fun():
+
+radio_button_unchecked
+def fun:
+
+radio_button_unchecked
+function fun():
+
+radio_button_unchecked
+fun function():
+Question 2
+A function defined in the following way:  (Select two answers)
+
+
+def function(x=0):
+    return x
+ 
+
+check_box_outline_blank
+may be invoked without any argument
+
+check_box_outline_blank
+must be invoked without any argument
+
+check_box_outline_blank
+must be invoked with exactly one argument
+
+check_box_outline_blank
+may be invoked with exactly one argument
+Question 3
+A built-in function is a function which:
+
+radio_button_unchecked
+has been placed within your code by another programmer
+
+radio_button_unchecked
+has to be imported before use
+
+radio_button_unchecked
+is hidden from programmers
+
+radio_button_unchecked
+comes with Python, and is an integral part of Python
+Question 4
+The fact that tuples belong to sequence types means that:
+
+radio_button_unchecked
+they can be extended using the .append() method
+
+radio_button_unchecked
+they can be modified using the del instruction
+
+radio_button_unchecked
+they can be indexed and sliced like lists
+
+radio_button_unchecked
+they are actually lists
+Question 5
+What is the output of the following snippet?
+
+
+def f(x):
+    if x == 0:
+        return 0
+    return x + f(x - 1)
+ 
+ 
+print(f(3))
+ 
+
+radio_button_unchecked
+the code is erroneous
+
+radio_button_unchecked
+3
+
+radio_button_unchecked
+1
+
+radio_button_unchecked
+6
+Question 6
+What is the output of the following snippet?
+
+
+def fun(x):
+    x += 1
+    return x
+ 
+ 
+x = 2
+x = fun(x + 1)
+print(x)
+ 
+
+radio_button_unchecked
+4
+
+radio_button_unchecked
+3
+
+radio_button_unchecked
+the code is erroneous
+
+radio_button_unchecked
+5
+Question 7
+What code would you insert instead of the comment to obtain the expected output?
+
+Expected output:
+
+a
+b
+c
+Code:
+
+
+dictionary = {}
+my_list = ['a', 'b', 'c', 'd']
+ 
+for i in range(len(my_list) - 1):
+    dictionary[my_list[i]] = (my_list[i], )
+ 
+for i in sorted(dictionary.keys()):
+    k = dictionary[i]
+    # Insert your code here.
+ 
+
+radio_button_unchecked
+print(k['0'])
+
+radio_button_unchecked
+print(k[0])
+
+radio_button_unchecked
+print(k["0"])
+
+radio_button_unchecked
+print(k)
+Question 8
+The following snippet:
+
+
+def func(a, b):
+    return a ** a
+ 
+ 
+print(func(2))
+ 
+
+radio_button_unchecked
+will output 4
+
+radio_button_unchecked
+is erroneous
+
+radio_button_unchecked
+will return None
+
+radio_button_unchecked
+will output 2
+Question 9
+The following snippet:
+
+
+def func_1(a):
+    return a ** a
+ 
+ 
+def func_2(a):
+    return func_1(a) * func_1(a)
+ 
+ 
+print(func_2(2))
+ 
+
+radio_button_unchecked
+will output 16
+
+radio_button_unchecked
+will output 4
+
+radio_button_unchecked
+will output 2
+
+radio_button_unchecked
+is erroneous
+Question 10
+Which of the following lines properly starts a function using two parameters, both with zeroed default values?
+
+radio_button_unchecked
+fun fun(a=0, b):
+
+radio_button_unchecked
+fun fun(a, b=0):
+
+radio_button_unchecked
+def fun(a=0, b=0):
+
+radio_button_unchecked
+def fun(a=b=0):
+Question 11
+Which of the following statements are true? (Select two answers)
+
+check_box_outline_blank
+The None value can be compared with variables
+
+check_box_outline_blank
+The None value cannot be used outside functions
+
+check_box_outline_blank
+The None value can be assigned to variables
+
+check_box_outline_blank
+The None value can be used as an argument of arithmetic operators
+Question 12
+What is the output of the following snippet?
+
+
+def fun(x):
+    if x % 2 == 0:
+        return 1
+    else:
+        return
+ 
+ 
+print(fun(fun(2)) + 1)
+ 
+
+radio_button_unchecked
+None
+
+radio_button_unchecked
+1
+
+radio_button_unchecked
+the code will cause a runtime error
+
+radio_button_unchecked
+2
+Question 13
+What is the output of the following snippet?
+
+
+def fun(x):
+    global y
+    y = x * x
+    return y
+ 
+ 
+fun(2)
+print(y)
+ 
+
+radio_button_unchecked
+None
+
+radio_button_unchecked
+the code will cause a runtime error
+
+radio_button_unchecked
+4
+
+radio_button_unchecked
+2
+Question 14
+What is the output of the following snippet?
+
+
+def any():
+    print(var + 1, end='')
+ 
+ 
+var = 1
+any()
+print(var)
+ 
+
+radio_button_unchecked
+21
+
+radio_button_unchecked
+22
+
+radio_button_unchecked
+11
+
+radio_button_unchecked
+12
+Question 15
+Assuming that my_tuple is a correctly created tuple, the fact that tuples are immutable means that the following instruction:
+
+
+my_tuple[1] = my_tuple[1] + my_tuple[0]
+ 
+
+radio_button_unchecked
+is illegal
+
+radio_button_unchecked
+may be illegal if the tuple contains strings
+
+radio_button_unchecked
+is fully correct
+
+radio_button_unchecked
+can be executed if and only if the tuple contains at least two elements
+Question 16
+What is the output of the following snippet?
+
+
+my_list = ['Mary', 'had', 'a', 'little', 'lamb']
+ 
+ 
+def my_list(my_list):
+    del my_list[3]
+    my_list[3] = 'ram'
+ 
+ 
+print(my_list(my_list))
+ 
+
+radio_button_unchecked
+['Mary', 'had', 'a', 'little', 'lamb']
+
+radio_button_unchecked
+['Mary', 'had', 'a', 'lamb']
+
+radio_button_unchecked
+no output, the snippet is erroneous
+
+radio_button_unchecked
+['Mary', 'had', 'a', 'ram']
+Question 17
+What is the output of the following snippet?
+
+
+def fun(x, y, z):
+    return x + 2 * y + 3 * z
+ 
+ 
+print(fun(0, z=1, y=3))
+ 
+
+radio_button_unchecked
+3
+
+radio_button_unchecked
+9
+
+radio_button_unchecked
+0
+
+radio_button_unchecked
+the snippet is erroneous
+Question 18
+What is the output of the following snippet?
+
+
+def fun(inp=2, out=3):
+    return inp * out
+ 
+ 
+print(fun(out=2))
+ 
+
+radio_button_unchecked
+2
+
+radio_button_unchecked
+6
+
+radio_button_unchecked
+4
+
+radio_button_unchecked
+the snippet is erroneous
+Question 19
+What is the output of the following code?
+
+
+dictionary = {'one': 'two', 'three': 'one', 'two': 'three'}
+v = dictionary['one']
+ 
+for k in range(len(dictionary)):
+    v = dictionary[v]
+ 
+print(v)
+ 
+
+radio_button_unchecked
+two
+
+radio_button_unchecked
+three
+
+radio_button_unchecked
+one
+
+radio_button_unchecked
+('one', 'two', 'three')
+Question 20
+What is the output of the following code?
+
+
+tup = (1, 2, 4, 8)
+tup = tup[1:-1]
+tup = tup[0]
+print(tup)
+ 
+
+radio_button_unchecked
+2
+
+radio_button_unchecked
+the snippet is erroneous
+
+radio_button_unchecked
+(2, )
+
+radio_button_unchecked
+(2)
+Question 21
+Select the true statements about the try-except block in relation to the following example. (Select two answers.)
+
+
+try:
+    # Some code is here...
+except:
+    # Some code is here...
+ 
+
+check_box_outline_blank
+If there is a syntax error in code located in the try block, the except branch will not handle it, and a SyntaxError exception will be raised instead.
+
+check_box_outline_blank
+The code that follows the except statement will be executed if the code in the try clause runs into an error.
+
+check_box_outline_blank
+If you suspect that a snippet may raise an exception, you should place it in the try block.
+
+check_box_outline_blank
+The code that follows the try statement will be executed if the code in the except clause runs into an error.
+Question 22
+What is the output of the following code?
+
+
+try:
+    value = input("Enter a value: ")
+    print(value/value)
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except TypeError:
+    print("Very very bad input...")
+except:
+    print("Booo!")
+
+radio_button_unchecked
+Very very bad input...
+
+radio_button_unchecked
+Bad input...
+
+radio_button_unchecked
+Booo!
+
+radio_button_unchecked
+Very bad input...
