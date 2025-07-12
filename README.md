@@ -2,4 +2,4 @@
 
 ## Deskripsi
 
-Proyek Python ini bertujuan untuk menyediakan alat pemrograman untuk analisis data.
+> Proyek Python Sederhana <
