@@ -2,4 +2,4 @@
 
 ## Deskripsi
 
-> Proyek Python Sederhana <
+<span style="color: red;">Proyek Python Sederhana.</span>
