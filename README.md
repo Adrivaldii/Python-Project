@@ -2,9 +2,11 @@
 # Proyek Python
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0-blue)
+![Version](https://img.shields.io/badge/version-3.13-blue)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Deskripsi
 
-<span style="color: red;">Proyek Python Sederhana.</span>
+# Proyek Python
+
+🟥 **Project Python Sederhana**
