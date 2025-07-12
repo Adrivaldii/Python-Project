@@ -6,7 +6,4 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Deskripsi
-
-# Proyek Python
-
-🟥 **Project Python Sederhana**
+# Proyek Python Sederhana 
